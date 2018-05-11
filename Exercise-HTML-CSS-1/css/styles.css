@@ -1,15 +1,18 @@
 .header {
 	background-color: #EE646C;
+	background-image: url("https://secure.meetupstatic.com/photos/event/7/4/3/0/600_467729744.jpeg");
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+	background-position: center;
 	display: table-cell; 
 	vertical-align: middle;
 	text-align: center;
 	margin-bottom: 50px;
+	height: 200px;
 }
 
 .main-content {
-	margin-left: 25%;
-	margin-right: 25%;
-	width: 50%;
+
 }
 
 h2 {
@@ -18,7 +21,15 @@ h2 {
 	padding: 15px;
 }
 
+h4 {
+	font-family: Montserrat;
+	color: #EE646C;
+	padding: 15px;
+	font-weight: bold;
+}
+
 p {
+	line-height: 35px;
 	font-family: Montserrat;
 	padding: 15px;
 	font-size: 16px;
@@ -30,6 +41,7 @@ strong {
 }
 
 li {
+	font-family: Montserrat;
 	color: #777777;
 	font-size: 16px;
 	padding-top: 10px;
