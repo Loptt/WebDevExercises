@@ -200,3 +200,12 @@ h6 {
   text-transform: uppercase;
   border-color: var(--accent-color);
 }
+
+.project-description__video {
+  box-shadow: 15px 15px 15px #888;
+}
+
+.space-1 {
+  width: 100%;
+  height: 300px;
+}
