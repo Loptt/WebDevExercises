@@ -217,10 +217,21 @@ h6 {
   width: 100%;
 }
 
-.team__h4 {
+.team__h4, 
+.team__h3, 
+.team__h1 {
   text-align: center;
 }
 
-.team__h1 {
+.team__img {
+  border-radius: 10px;
+  object-fit: cover;
+  height: 350px;
+  width: 250px;
+  margin-bottom: 35px;
+}
+
+.program__p {
   text-align: center;
+  font-size: 22px;
 }
