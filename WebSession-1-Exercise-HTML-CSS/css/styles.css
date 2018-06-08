@@ -33,6 +33,9 @@ h6 {
 .h1--gigant {
   font-size: var(--gigant-font-size);
 }
+.h1--white {
+  color: var(--white);
+}
 
 .h1__shadow {
   height: 100px;
@@ -77,6 +80,10 @@ h6 {
   color: var(--accent-color);
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.h4--white {
+  color: var(--white);
 }
 
 .p {
@@ -217,8 +224,8 @@ h6 {
   width: 100%;
 }
 
-.team__h4, 
-.team__h3, 
+.team__h4,
+.team__h3,
 .team__h1 {
   text-align: center;
 }
@@ -229,9 +236,37 @@ h6 {
   height: 350px;
   width: 250px;
   margin-bottom: 35px;
+  box-shadow: 5px 5px 30px #cccccc;
 }
 
 .program__p {
   text-align: center;
   font-size: 22px;
+}
+
+.rotated {
+  margin-top: 30px;
+  position: relative;
+}
+
+.rotated__h4--white {
+  text-align: center;
+}
+
+.rotated__h1--white {
+  text-align: center;
+}
+
+.rotated::after {
+  top: 0;
+  z-index: -1;
+  height: 300px;
+  width: 120%;
+  content: "";
+  position: absolute;
+  left: -10%;
+  background-color: var(--accent-color);
+  -ms-transform: rotate(20deg); /* IE 9 */
+  -webkit-transform: rotate(20deg); /* Safari */
+  transform: rotate(-1deg);
 }
